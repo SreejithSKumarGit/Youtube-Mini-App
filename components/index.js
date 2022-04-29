@@ -22,7 +22,6 @@ async function firstPage()
         let url=`https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=20&key=AIzaSyBD9Egj3GBF6tX62IHQCfqQxX5p-5qlBE0`;
         let res= await fetch(url);
         let data=await res.json();
-        
         displayFirstData(data.items);   
     } catch (error) {
         console.log("Error :" + error);
@@ -94,4 +93,3 @@ function setVideoId(videoId)
 
     window.location.href='video.html';  
 }
-<iframe width="750" height="500" src="https://www.youtube.com/embed/noh6BYgtTxQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
