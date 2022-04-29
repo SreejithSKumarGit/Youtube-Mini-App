@@ -1,0 +1,19 @@
+#resultDiv
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+#resultDiv >div
+{
+    border: 1px solid #cecece;
+    padding: 10px;
+    text-align: center;
+}
+#inputDiv
+{
+    display: flex;
+    justify-content:center; 
+    border: 2px solid #cecece;
+    height: 40px;
+}

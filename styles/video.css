@@ -1,0 +1,12 @@
+#playerDiv
+{
+    display: flex;
+    justify-content: center;
+}
+iframe
+{
+    width: 750px;
+    height: 500px;
+    margin: auto;
+    
+}
